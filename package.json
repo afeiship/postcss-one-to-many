@@ -1,0 +1,15 @@
+{
+  "name": "postcss-one-to-many",
+  "version": "0.0.1",
+  "description": "One to many for postcss",
+  "homepage": "https://github.com/afeiship/postcss-one-to-many",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "next-js-core2": "github:afeiship/next-js-core2"
+  }
+}
