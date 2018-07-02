@@ -33,3 +33,66 @@ gulp.task('styles', function () {
       .pipe(gulp.dest('dist'));
 });
 ```
+
+## suport list:
+```js
+// margins:
+module.exports = {
+  'm': [
+    'margin-top',
+    'margin-right',
+    'margin-bottom',
+    'margin-left'
+  ],
+  'mx': [
+    'margin-right',
+    'margin-left'
+  ],
+  'my': [
+    'margin-top',
+    'margin-bottom'
+  ],
+  'mt': [
+    'margin-top'
+  ],
+  'mr': [
+    'margin-right'
+  ],
+  'mb': [
+    'margin-bottom'
+  ],
+  'ml': [
+    'margin-left'
+  ]
+};
+
+// paddings:
+module.exports = {
+  'p': [
+    'padding-top',
+    'padding-right',
+    'padding-bottom',
+    'padding-left'
+  ],
+  'px': [
+    'padding-right',
+    'padding-left'
+  ],
+  'py': [
+    'padding-top',
+    'padding-bottom'
+  ],
+  'pt': [
+    'padding-top'
+  ],
+  'pr': [
+    'padding-right'
+  ],
+  'pb': [
+    'padding-bottom'
+  ],
+  'pl': [
+    'padding-left'
+  ]
+};
+```
