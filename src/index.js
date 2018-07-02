@@ -9,7 +9,7 @@ module.exports = postcss.plugin('postcss-one-to-many', function(options) {
     // Processing code will be added here
     css.walkRules(function (rule) {
       rule.walkDecls(function (decl, i) {
-        var key = decl.key;
+        var key = decl.prop;
         var value = decl.value;
         var moduleValues = modules[key];
 
