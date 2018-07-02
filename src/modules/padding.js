@@ -14,7 +14,7 @@ module.exports = {
     'padding-bottom'
   ],
   'pt': [
-    'padding-left'
+    'padding-top'
   ],
   'pr': [
     'padding-right'
@@ -23,6 +23,6 @@ module.exports = {
     'padding-bottom'
   ],
   'pl': [
-    'padding-bottom'
+    'padding-left'
   ]
 }

@@ -14,7 +14,7 @@ module.exports = {
     'margin-bottom'
   ],
   'mt': [
-    'margin-left'
+    'margin-top'
   ],
   'mr': [
     'margin-right'
@@ -23,6 +23,6 @@ module.exports = {
     'margin-bottom'
   ],
   'ml': [
-    'margin-bottom'
+    'margin-left'
   ]
 }
