@@ -1,9 +1,9 @@
 var postcss = require('postcss');
 var modules = require('./modules');
 
-module.exports = postcss.plugin('postcss-one-to-many', function(options) {
+module.exports = postcss.plugin('postcss-one-to-many', function(inOptions) {
   return function (css) {
-    options = options || {};
+    var options = inOptions || {};
     // console.log(options);
     // Processing code will be added here
     css.walkRules(function (rule) {
