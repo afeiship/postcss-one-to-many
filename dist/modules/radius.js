@@ -1,4 +1,7 @@
 module.exports = {
+  'radius':[
+    'border-radius'
+  ],
   'radius-bottom': [
     'border-bottom-left-radius',
     'border-bottom-right-radius'
