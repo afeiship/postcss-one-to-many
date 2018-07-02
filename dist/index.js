@@ -1,5 +1,4 @@
 var postcss = require('postcss');
-var nx = require('next-js-core2');
 var modules = require('./modules');
 
 module.exports = postcss.plugin('postcss-one-to-many', function(options) {
