@@ -13,7 +13,7 @@ module.exports = postcss.plugin('postcss-one-to-many', function(options) {
         var value = decl.value;
         var moduleValues = modules[key];
 
-        if (moduleValues.length > 0) {
+        if (moduleValues) {
           moduleValues.forEach(function (prop) {
             decl.cloneBefore({
               prop: prop,
