@@ -1,8 +1,12 @@
 # postcss-one-to-many
 > One to many for postcss
 
+## installation
+```shell
+npm i -D @feizheng/postcss-one-to-many
+```
 
-## usage:
+## usage
 + css parts:
 ```css
 body{
