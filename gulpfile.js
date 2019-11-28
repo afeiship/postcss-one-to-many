@@ -23,7 +23,8 @@ gulp.task("styles", function() {
     .pipe(gulp.dest("test/dist"));
 });
 
-// default:
-gulp.task("default", ["clean"], () => {
+gulp.task("scripts", () => {
   return gulp.src(["./src/**"]).pipe(gulp.dest("dist"));
 });
+
+gulp.task("default", gulp.series(["clean", "styles", "scripts"]));
