@@ -23,7 +23,7 @@ var postcss = require('gulp-postcss');
 var gulp = require('gulp');
 var autoprefixer = require('autoprefixer');
 var cssnano = require('cssnano');
-var one2many = require('postcss-one-to-many');
+var one2many = require('@feizheng/postcss-one-to-many');
 
 // styles:
 gulp.task('styles', function () {
